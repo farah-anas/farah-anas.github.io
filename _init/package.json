@@ -1,0 +1,63 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint-loader": "^4.0.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@ionic/react": "^5.2.3",
+    "@ionic/react-router": "^5.2.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.24.0",
+    "devtools-detector": "^2.0.6",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
+    "react-particles-js": "^3.5.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "tsparticles": "^1.36.0",
+    "zip-lib": "^0.7.1"
+  },
+  "scripts": {
+    "bundle": "webpack --config webpack.bundle.config.js --mode production",
+    "react": "react-scripts start babel-node --presets es2015 src/index.js",
+    "server": "node server.js",
+    "start": "npm run react",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version",
+      "ie 9",
+      "ie 11"
+    ],
+    "development": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version",
+      "ie 9",
+      "ie 11"
+    ]
+  }
+}
